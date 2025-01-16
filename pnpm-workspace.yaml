@@ -1,10 +1,13 @@
+# Configuración de paquetes y catálogo para Ciberseguridad
+
 packages:
-  - "packages/*"
-  - "apps/*"
+  - "packages/*"  # Incluye todos los paquetes en el directorio 'packages'
+  - "apps/*"      # Incluye todas las aplicaciones en el directorio 'apps'
 
 catalog:
-  "@astrojs/starlight": ^0.30.6
-  "@astrojs/check": ^0.9.3
-  astro: ^5.1.5
-  sharp: ^0.33.4
-  typescript: ^5.7.2
+  # Dependencias del proyecto
+  "@astrojs/starlight": ^0.30.6  # Herramienta para la documentación de Astro
+  "@astrojs/check": ^0.9.3        # Verificación de la configuración de Astro
+  astro: ^5.1.5                    # Framework para construir sitios web
+  sharp: ^0.33.4                   # Biblioteca para procesamiento de imágenes
+  typescript: ^5.7.2               # Lenguaje de programación para desarrollo seguro y escalable
